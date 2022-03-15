@@ -1,7 +1,6 @@
-html {
+* {
+  font-family: "Raleway", sans-serif;
   margin: 0;
-  padding: 0;
-  width: 100%;
 }
 body {
   margin: 0;
@@ -16,8 +15,7 @@ body {
 }
 .logo {
   float: left;
-  margin-left: 46px;
-  padding: 0px;
+  padding: 20px 46px;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -28,12 +26,12 @@ body {
   color: #fff;
 }
 .navigation {
-  background-color: wheat;
+  background-color: #f48519;
+  opacity: 0.8;
   position: fixed;
   top: 0;
   left: 0;
-  margin: 0;
-  padding: 5px;
+  padding: 15px;
   width: 100%;
   z-index: 10;
 }
@@ -101,16 +99,72 @@ body {
   border-radius: 4px;
   background-color: white;
 }
+main {
+  margin-top: 650px;
+}
 .container {
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
-  margin: 0;
+  margin: 0 auto;
 }
-.menu-wrapper {
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+.content-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
+  height: 500px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.content {
+  float: left;
+  width: 20%;
+}
+
+.content-icon {
+  position: relative;
+}
+
+.content-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
   text-align: center;
 }
