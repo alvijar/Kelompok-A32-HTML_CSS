@@ -25,6 +25,7 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
 .navigation {
   background-color: #f48519;
   opacity: 0.8;
@@ -39,7 +40,7 @@ body {
   list-style: none;
   cursor: pointer;
   float: right;
-  margin-right: 140px;
+  margin-right: 100px;
 }
 .navigation ul li {
   list-style: none;

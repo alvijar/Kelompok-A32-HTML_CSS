@@ -1,0 +1,120 @@
+
+/* iPad Air */
+@media all and (max-width: 1000px){  
+
+    body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+    .container{
+        margin: 0;
+    }
+    
+    .contents{
+        margin: 0;
+    }
+
+    .navigation {
+        background-color: #f48519;
+        opacity: 0.8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 15px 0;
+        width: 100%;
+        z-index: 10;
+      }
+
+      .navigation ul {
+        list-style: none;
+        cursor: pointer;
+        float: right;
+      }
+
+    .header-wrapper {
+        background-color: #f48519;
+        height: 300px;
+        width: 100%;
+        position: fixed;
+        margin: 0;
+      }
+
+    .logo {
+        float: left;
+        padding: 20px 46px;
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+
+    .top-wrapper h1 {
+        color: #fff;
+        text-align: center;
+        font-family: "Noto Serif JP", sans-serif;
+        font-size: 20px;
+        margin: 0;
+      }
+
+    .top-content p {
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        text-align: left;
+      }
+}
+
+/* iPhone 12 Pro */
+@media all and (max-width: 390px) and  (max-height: 844px){
+    .header-wrapper {
+        background-color: #f48519;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 90px;
+      }
+
+      .header-wrapper {
+        background-color: #f48519;
+        height: 300px;
+        width: 100%;
+        position: fixed;
+        margin: 0;
+      }
+
+    .logo {
+        float: left;
+        padding: 20px 46px;
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .navigation ul li{
+        display: none;
+    }
+
+    .gudeg-img {
+        position: relative;
+        top: 50%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        text-align: -webkit-right;
+      }
+
+    .menu-icon{
+        display: block;
+      }
+
+      .top-content p {
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        font-size: 10px;
+        text-align: left;
+      }
+}   
