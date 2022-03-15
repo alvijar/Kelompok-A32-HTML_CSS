@@ -9,10 +9,10 @@ body {
 }
 .header-wrapper {
   background-color: #f48519;
-  height: 650px;
+  height: 300px;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 90px;
 }
 .logo {
   float: left;
@@ -57,21 +57,22 @@ body {
 .top-wrapper {
   text-align: left;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 72%;
   transform: translate(-50%, -50%);
 }
 .top-wrapper h1 {
   color: #fff;
-  text-align: left;
+  text-align: center;
   font-family: "Noto Serif JP", sans-serif;
   font-size: 30px;
+  margin: 0;
 }
 .top-content {
   position: absolute;
   transform: translate(-50%, -50%);
   text-align: center;
-  top: 55%;
+  top: 65%;
   left: 73%;
 }
 .top-content p {
@@ -85,7 +86,7 @@ body {
   top: 50%;
   left: 22%;
   transform: translate(-50%, -50%);
-  width: 57%;
+  width: 500px;
   text-align: -webkit-right;
 }
 .gudeg-img img {
