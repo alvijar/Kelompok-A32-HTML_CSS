@@ -15,6 +15,7 @@
   <header>
     <div class="header-wrapper">
       <div class="navigation">
+        <span class="fa fa-bars menu-icon"></span>
         <div class="logo">
           <a href="#">
             <p>Kuliner Nusantara</p>
@@ -57,64 +58,66 @@
               <img class="image" src="image/appetizer.jpg">
             </div>
             <h3>Appetizer</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
-            <!-- <p class="text-contents">Jenis istilah yang satu ini merujuk kepada makanan pembuka yang biasa disajikan
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Jenis istilah yang satu ini merujuk kepada makanan pembuka<span id="bacalengkap">...</span><span id="selengkapnya"> yang biasa disajikan
               sebelum memulai hidangan besar atau utama. Biasanya menu yang terdapat pada jamuan pembuka ini memiliki
               porsi yang relatif kecil sehingga tak akan membuat kamu kenyang. Jenisnya pun beragam, ada yang panas atau
-              pun dingin. </p> -->
+              pun dingin. </span></p><button onclick="BacaSelengkapnya()" id="tampillengkap">Baca selengkapnya</button>
           </div>
           <div class="content">
             <div class="content-icon">
               <img class="image" src="image/soup.jpg">
             </div>
             <h3>Soup</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
-            <!-- <p class="text-contents">Istilah yang satu ini juga merujuk kepada berbagai jenis sup yang biasa disediakan
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Istilah yang satu ini juga merujuk kepada berbagai jenis sup yang<span id="bacalengkap2">...</span><span id="selengkapnya2"> biasa disediakan
               di restoran. Biasanya olahan sup ini juga menjadi makanan yang disantap oleh pelanggan sebelum memulai
-              hidangan utama. Kamu juga dapat menentukan jenis sup favoritmu.</p> -->
+              hidangan utama. Kamu juga dapat menentukan jenis sup favoritmu.</span></p><button onclick="BacaSelengkapnya2()" id="tampillengkap2">Baca selengkapnya</button>
           </div>
           <div class="content">
             <div class="content-icon">
               <img class="image" src="image/main-course.jpg">
             </div>
             <h3>Main course</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
-            <!-- <p class="text-contents">Istilah yang satu ini memang merupakan jamuan untuk hidangan utama bagi pelanggan.
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Istilah yang satu ini memang merupakan jamuan untuk<span id="bacalengkap3">...</span><span id="selengkapnya3"> hidangan utama bagi pelanggan.
               Biasanya makanan-makanan bercita gurih lah yang dijamu pada sesi kali ini. Porsi makanan yang disajikan
-              juga biasanya disajikan dengan porsi yang lebih besar dan mengenyangkan. </p> -->
+              juga biasanya disajikan dengan porsi yang lebih besar dan mengenyangkan.</span></p><button onclick="BacaSelengkapnya3()" id="tampillengkap3">Baca selengkapnya</button>
           </div>
           <div class="content">
             <div class="content-icon">
               <img class="image" src="image/dessert.jpg">
             </div>
             <h3>Dessert</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
-            <!-- <p class="text-contents">Jenis istilah yang satu ini sudah cukup populer di kalangan masyarakat dan erat
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Jenis istilah yang satu ini sudah cukup populer di<span id="bacalengkap4">...</span><span id="selengkapnya4"> kalangan masyarakat dan erat
               kaitannya dengan menu-menu makanan atau minuman manis. Biasanya memang menu ini dihidangkan sebagai
               makanan penutup atau disebut juga sebagai menu pencuci mulut. Cita rasanya yang manis tentu membuat siapa
-              saja akan ketagihan.</p> -->
+              saja akan ketagihan.</span></p><button onclick="BacaSelengkapnya4()" id="tampillengkap4">
           </div>
           <div class="content">
             <div class="content-icon">
               <img class="image" src="image/beverage.jpg">
             </div>
             <h3>Bevarage</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
-            <!-- <p class="text-contents">Menu minuman sesuai dengan seleramu setelah menyantap makanan yang telah disajikan.
-            </p> -->
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Menu minuman sesuai dengan seleramu setelah menyantap makanan yang telah disajikan.
+            </p>
           </div>
           <div class="content">
             <div class="content-icon">
               <img class="image" src="image/jus.jpg">
             </div>
             <h3>Jus</h3>
-            <span>$15.99</span>
-            <a href="#" class="btn">Buy</a>
+            <div class="span">$15.99</div>
+            <a href="#" class="btn">Buy</a><br>
+            <p class="text-contents">Menu minuman yang terbuat dari buah-buahan yang menyegarkan<span id="bacalengkap5">...</span><span id="selengkapnya5"> sesuai dengan seleramu setelah menyantap makanan yang telah disajikan.</span>
+            </p><button onclick="BacaSelengkapnya5()" id="tampillengkap5">
             <div class="clear"></div>
           </div>
         </div>
@@ -123,6 +126,84 @@
   <footer>
 
   </footer>
+  <script>
+    function BacaSelengkapnya() {
+      var bacalengkap = document.getElementById("bacalengkap");
+      var selengkapnyaText = document.getElementById("selengkapnya");
+      var tampillengkap = document.getElementById("tampillengkap");
+    
+      if (bacalengkap.style.display === "none") {
+        bacalengkap.style.display = "inline";
+        tampillengkap.innerHTML = "Baca selengkapnya"; 
+        selengkapnyaText.style.display = "none";
+      } else {
+        bacalengkap.style.display = "none";
+        tampillengkap.innerHTML = "Sembunyikan"; 
+        selengkapnyaText.style.display = "inline";
+      }
+    }
+    function BacaSelengkapnya2() {
+      var bacalengkap = document.getElementById("bacalengkap2");
+      var selengkapnyaText = document.getElementById("selengkapnya2");
+      var tampillengkap = document.getElementById("tampillengkap2");
+    
+      if (bacalengkap.style.display === "none") {
+        bacalengkap.style.display = "inline";
+        tampillengkap.innerHTML = "Baca selengkapnya"; 
+        selengkapnyaText.style.display = "none";
+      } else {
+        bacalengkap.style.display = "none";
+        tampillengkap.innerHTML = "Sembunyikan"; 
+        selengkapnyaText.style.display = "inline";
+      }
+    }
+    function BacaSelengkapnya3() {
+      var bacalengkap = document.getElementById("bacalengkap3");
+      var selengkapnyaText = document.getElementById("selengkapnya3");
+      var tampillengkap = document.getElementById("tampillengkap3");
+    
+      if (bacalengkap.style.display === "none") {
+        bacalengkap.style.display = "inline";
+        tampillengkap.innerHTML = "Baca selengkapnya"; 
+        selengkapnyaText.style.display = "none";
+      } else {
+        bacalengkap.style.display = "none";
+        tampillengkap.innerHTML = "Sembunyikan"; 
+        selengkapnyaText.style.display = "inline";
+      }
+    }
+    function BacaSelengkapnya4() {
+      var bacalengkap = document.getElementById("bacalengkap4");
+      var selengkapnyaText = document.getElementById("selengkapnya4");
+      var tampillengkap = document.getElementById("tampillengkap4");
+    
+      if (bacalengkap.style.display === "none") {
+        bacalengkap.style.display = "inline";
+        tampillengkap.innerHTML = "Baca selengkapnya"; 
+        selengkapnyaText.style.display = "none";
+      } else {
+        bacalengkap.style.display = "none";
+        tampillengkap.innerHTML = "Sembunyikan"; 
+        selengkapnyaText.style.display = "inline";
+      }
+    }
+    function BacaSelengkapnya5() {
+      var bacalengkap = document.getElementById("bacalengkap5");
+      var selengkapnyaText = document.getElementById("selengkapnya5");
+      var tampillengkap = document.getElementById("tampillengkap5");
+    
+      if (bacalengkap.style.display === "none") {
+        bacalengkap.style.display = "inline";
+        tampillengkap.innerHTML = "Baca selengkapnya"; 
+        selengkapnyaText.style.display = "none";
+      } else {
+        bacalengkap.style.display = "none";
+        tampillengkap.innerHTML = "Sembunyikan"; 
+        selengkapnyaText.style.display = "inline";
+      }
+    }
+  </script>
+    
 </body>
 
 </html>

@@ -10,7 +10,7 @@ body {
   background-color: #f48519;
   height: 300px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 90px;
 }
 .logo {
@@ -49,7 +49,7 @@ body {
   list-style: none;
   cursor: pointer;
   float: right;
-  margin-right: 100px;
+  margin-right: 70px;
 }
 .navigation ul li {
   list-style: none;
@@ -124,6 +124,8 @@ main {
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  cursor: pointer;
+  margin-right: 40px;
   display: none;
 }
 .content-wrapper {
@@ -154,11 +156,32 @@ main {
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .content-icon p {
   position: absolute;
   top: 44%;
   width: 100%;
   color: white;
+=======
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+h3 {
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.span {
+  color: seagreen;
+>>>>>>> Stashed changes
+}
+
+span {
+  color: #b3aeb5;
 }
 
 .text-contents {
@@ -178,3 +201,26 @@ main {
   padding-bottom: 80px;
   text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+
+#selengkapnya {
+  display: none;
+}
+
+#selengkapnya2 {
+  display: none;
+}
+
+#selengkapnya3 {
+  display: none;
+}
+
+#selengkapnya4 {
+  display: none;
+}
+
+#selengkapnya5 {
+  display: none;
+}
+>>>>>>> Stashed changes
