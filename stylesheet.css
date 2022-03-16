@@ -2,12 +2,10 @@
   font-family: "Raleway", sans-serif;
   margin: 0;
 }
-
 body {
   margin: 0;
   padding: 0;
 }
-
 .header-wrapper {
   background-color: #f48519;
   height: 300px;
@@ -15,7 +13,6 @@ body {
   position: fixed;
   top: 90px;
 }
-
 .logo {
   float: left;
   padding: 20px 46px;
@@ -24,10 +21,18 @@ body {
   font-weight: bold;
   color: #fff;
 }
-
 .logo a {
   text-decoration: none;
   color: #fff;
+}
+
+.header-wrapper .fa {
+  display: none;
+}
+
+.menu-icon{
+  color: white;
+  float: right; 
 }
 
 .navigation {
@@ -40,14 +45,12 @@ body {
   width: 100%;
   z-index: 10;
 }
-
 .navigation ul {
   list-style: none;
   cursor: pointer;
   float: right;
   margin-right: 100px;
 }
-
 .navigation ul li {
   list-style: none;
   display: inline-block;
@@ -55,28 +58,23 @@ body {
   font-family: "Raleway", sans-serif;
   padding: 15px 15px;
 }
-
 .navigation ul li:hover {
   border-bottom: 3px solid #fff;
   transition: all 0.3s ease;
 }
-
 .top-wrapper {
   text-align: left;
   position: absolute;
   top: 30%;
   left: 72%;
   transform: translate(-50%, -50%);
-  margin-bottom: 3000px;
 }
-
 .top-wrapper h1 {
   color: #fff;
   text-align: center;
   font-family: "Noto Serif JP", sans-serif;
   font-size: 30px;
 }
-
 .top-content {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -84,7 +82,6 @@ body {
   top: 65%;
   left: 73%;
 }
-
 .top-content p {
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -92,7 +89,6 @@ body {
   text-align: left;
   margin-top: 10px;
 }
-
 .gudeg-img {
   position: absolute;
   top: 50%;
@@ -101,12 +97,10 @@ body {
   width: 500px;
   text-align: -webkit-right;
 }
-
 .gudeg-img img {
   width: 70%;
   border-radius: 15%;
 }
-
 .button-order {
   margin-top: 30px;
   padding: 15px 30px;
@@ -116,19 +110,15 @@ body {
   border-radius: 4px;
   background-color: white;
 }
-
-/* batas header */
 main {
-  margin-top: 350px;
+  margin-top: 650px;
 }
-
 .container {
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .menu-icon {
   color: white;
   float: right;
@@ -136,7 +126,6 @@ main {
   padding: 21px 0;
   display: none;
 }
-
 .content-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -150,60 +139,26 @@ main {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
-  text-transform: uppercase;
+}
+
+.heading h2 {
+  font-weight: normal;
 }
 
 .content {
   float: left;
-  position: relative;
-  width: 27.8%;
-  background-color: rgba(255, 255, 255, 0.966);
-  margin: 1rem;
-  box-shadow: 5px 15px 15px rgb(189, 186, 186);
-  border-radius: 20px;
-  padding: 1rem;
-  text-align: center;
-
+  width: 20%;
 }
 
 .content-icon {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.966);
-  margin: 1rem;
-  box-shadow: 5px 15px 15px rgb(189, 186, 186);
-  border-radius: 20px;
-  padding: 1rem;
-  text-align: center;
 }
 
-.btn {
-  position: relative;
-  z-index: 1;
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #f48519;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-  border: 1px solid #ff9900;
-  border-radius: 20px;
-}
-
-.image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 1rem;
-}
-
-h3 {
-  color: orange;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-span {
-  color: seagreen;
+.content-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
 }
 
 .text-contents {
