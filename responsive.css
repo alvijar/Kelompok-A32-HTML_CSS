@@ -1,19 +1,5 @@
 /* iPad Air */
 @media all and (max-width: 1000px) {
-  body {
-    width: auto;
-    margin: 0;
-    padding: 0;
-  }
-
-  .container {
-    margin: 0;
-  }
-
-  .contents {
-    margin: 0;
-  }
-
   .navigation {
     background-color: #f48519;
     opacity: 0.8;
@@ -35,7 +21,7 @@
     background-color: #f48519;
     height: 300px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     margin: 0;
   }
 
@@ -47,13 +33,12 @@
     font-weight: bold;
     color: #fff;
   }
-
+  
   .top-wrapper h1 {
     color: #fff;
     text-align: center;
     font-family: "Noto Serif JP", sans-serif;
     font-size: 20px;
-    margin: 0;
   }
 
   .top-content p {
@@ -62,24 +47,97 @@
     font-size: 12px;
     text-align: left;
   }
+
+  .content-wrapper {
+    margin-top: 350px;
+    padding-bottom: 600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    height: 1500px;
+    text-align: center;
+  }
+
+  .content {
+    float: left;
+    position: relative;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin: 1rem;
+    box-shadow: 5px 15px 15px rgb(189, 186, 186);
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+  
+  }
+  /* batas header */
+  main {
+    margin-top: 350px;
+  }
+  /*Footer*/
+  footer {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    bottom: 0;
+  }
 }
 
 /* iPhone 12 Pro */
 @media all and (max-width: 670px) {
-  .header-wrapper {
-    background-color: #f48519;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    top: 90px;
+  /*Footer*/
+  footer {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    bottom: 0;
   }
 
   .header-wrapper {
     background-color: #f48519;
     height: 300px;
     width: 100%;
-    position: fixed;
-    margin: 0;
+    position: absolute;
+    top: 90px;
+  }
+
+  .top-wrapper h1 {
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Noto Serif JP", sans-serif;
+    font-size: 20px;
+  }
+  
+  .content {
+    float: left;
+    position: relative;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin: 1rem;
+    box-shadow: 5px 15px 15px rgb(189, 186, 186);
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+  
+  }
+
+  .top-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 65%;
+    left: 73%;
+  }
+  
+  .top-content p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
   }
   
   .navigation {
