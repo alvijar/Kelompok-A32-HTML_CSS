@@ -10,7 +10,7 @@ body {
   background-color: #f48519;
   height: 300px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 90px;
 }
 .logo {
@@ -24,6 +24,12 @@ body {
 .logo a {
   text-decoration: none;
   color: #fff;
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  display: none;
 }
 
 .navigation {
@@ -59,13 +65,13 @@ body {
   top: 30%;
   left: 72%;
   transform: translate(-50%, -50%);
+  margin-bottom: 3000px;
 }
 .top-wrapper h1 {
   color: #fff;
   text-align: center;
   font-family: "Noto Serif JP", sans-serif;
   font-size: 30px;
-  margin: 0;
 }
 .top-content {
   position: absolute;
@@ -79,6 +85,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   text-align: left;
+  margin-top: 10px;
 }
 .gudeg-img {
   position: absolute;
@@ -115,7 +122,6 @@ main {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Gantikan property display ke none */
   display: none;
 }
 .content-wrapper {

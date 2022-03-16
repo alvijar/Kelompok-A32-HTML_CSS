@@ -68,7 +68,7 @@
 }
 
 /* iPhone 12 Pro */
-@media all and (max-width: 390px) and  (max-height: 844px){
+@media all and (max-width: 670px){
     .header-wrapper {
         background-color: #f48519;
         height: 100px;
@@ -85,6 +85,10 @@
         margin: 0;
       }
 
+      .navigation {
+        position: fixed;
+      }
+
     .logo {
         float: left;
         padding: 20px 46px;
@@ -97,6 +101,8 @@
     .navigation ul li{
         display: none;
     }
+
+    
 
     .gudeg-img {
         position: relative;
@@ -116,5 +122,21 @@
         font-family: "Raleway", sans-serif;
         font-size: 10px;
         text-align: left;
+      }
+
+      .top-wrapper h1 {
+        font-size: 12px;
+        text-align: left;
+        margin: 0;
+      }
+
+      .button-order {
+        margin-top: 30px;
+        padding: 10px 20px;
+        color: #f48519;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 5px;
+        background-color: white;
       }
 }   
